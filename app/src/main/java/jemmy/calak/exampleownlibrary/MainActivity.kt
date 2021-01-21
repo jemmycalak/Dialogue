@@ -6,6 +6,9 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import jemmy.calak.dialogue.Dialogue
+import jemmy.calak.dialogue.`interface`.DialogueListener
+import jemmy.calak.dialogue.model.DialogueModel
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,8 +18,18 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(findViewById(R.id.toolbar))
 
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
+//            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                    .setAction("Action", null).show()
+
+            Dialogue(DialogueModel(
+                R.mipmap.ic_launcher_round,
+                "Title",
+                "Description",
+                "Yes",
+                "No",
+                {},
+                {}
+            )).show(supportFragmentManager, "")
         }
     }
 

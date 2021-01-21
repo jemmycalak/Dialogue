@@ -1,6 +1,6 @@
 package jemmy.calak.dialogue.`interface`
 
-interface DialoggueListener {
+interface DialogueListener {
     fun onClickNo()
     fun onClickYes()
 }

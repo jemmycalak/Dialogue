@@ -30,6 +30,13 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    /*
+    * binding, requirement to implement library
+    */
+    buildFeatures {
+        dataBinding true
+    }
 }
 
 dependencies {
@@ -46,4 +53,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     implementation project(':dialogue')
+//    implementation 'com.github.jemmycalak:Dialogue:0.0.1'
 }
