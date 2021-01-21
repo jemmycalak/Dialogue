@@ -1,5 +1,5 @@
-#Dialogue
-##an custom dialog with custom action and icon
+# Dialogue
+## an custom dialog with custom action and icon
 ## Screenshoot
 <img src="screenshoot/example_1.png" height="400" alt="Screenshot"/>
 
