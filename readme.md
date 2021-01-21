@@ -10,6 +10,7 @@ buildFeatures {
     dataBinding true
 }
 
+### call in the dialog
 Dialogue(DialogueModel(
     R.drawable.ic_icon,
     "Warning",
