@@ -9,6 +9,14 @@
 buildFeatures {
     dataBinding true
 }
+### and:
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+    }
+}
 
 ### call in the dialog
 Dialogue(DialogueModel(
