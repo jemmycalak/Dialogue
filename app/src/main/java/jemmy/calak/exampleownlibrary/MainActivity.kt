@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import jemmy.calak.dialogue.Dialogue
-import jemmy.calak.dialogue.`interface`.DialogueListener
 import jemmy.calak.dialogue.model.DialogueModel
 
 class MainActivity : AppCompatActivity() {
@@ -22,9 +21,9 @@ class MainActivity : AppCompatActivity() {
 //                    .setAction("Action", null).show()
 
             Dialogue(DialogueModel(
-                R.mipmap.ic_launcher_round,
-                "Title",
-                "Description",
+                R.drawable.ic_round_error,
+                "Warning",
+                "Oops there's an error with our system",
                 "Yes",
                 "No",
                 {},

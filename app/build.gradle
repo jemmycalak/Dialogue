@@ -52,6 +52,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-    implementation project(':dialogue')
-//    implementation 'com.github.jemmycalak:Dialogue:0.0.1'
+//    implementation project(':dialogue')
+    implementation 'com.github.jemmycalak:Dialogue:0.0.2'
 }
