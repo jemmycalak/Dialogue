@@ -18,7 +18,7 @@ allprojects {
     }
 }
 
-### call in the dialog
+### show the dialog
 Dialogue(DialogueModel(
     R.drawable.ic_icon,
     "Warning",
