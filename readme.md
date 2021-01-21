@@ -1,5 +1,7 @@
 #Dialogue
 ##an custom dialog with custom action and icon
+## Screenshoot
+<img src="screenshoot/example_1.png" height="400" alt="Screenshot"/>
 
 ## How to use ?
 ## implementation 'com.github.jemmycalak:Dialogue:0.0.2'
